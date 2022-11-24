@@ -1,16 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './Component/Button';
 
-function App() {
+
+
+const Ihor = () => {
+    console.log("Ihor");
+    const handleButtonClick = () => {
+        alert('CLICK')
+    }
+
+
   return (
     <div className="App">
         <h1>Hello</h1>
-        <div className="mainWrapper">
-            <h3>Bobby's Page</h3>
-            <span>Bobby's first changes</span>
+        <div className="wrapper">
+            <h3>Ihor's Page</h3>
+            <span>ihor's first changes</span>
+            <Button title='Click me' handleClick={handleButtonClick}/>
         </div>
     </div>
   );
 }
 
-export default App;
+export default Ihor;
