@@ -19,6 +19,9 @@ const Ihor = () => {
             <span>ihor's first changes</span>
             <Button title='Click me' handleClick={handleButtonClick}/>
         </div>
+        <div>
+            <span>This is my new page</span>
+        </div>
     </div>
   );
 }
