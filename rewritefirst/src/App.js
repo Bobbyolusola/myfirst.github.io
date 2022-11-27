@@ -4,7 +4,7 @@ import Button from './Component/Button';
 
 
 
-const Ihor = () => {
+const App = () => {
     console.log("Ihor");
     const handleButtonClick = () => {
         alert('CLICK')
@@ -26,4 +26,4 @@ const Ihor = () => {
   );
 }
 
-export default Ihor;
+export default App;
